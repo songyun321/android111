@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/modify_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:textColor="#AAAAAA"
+            android:text="修改密码"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#E3E3E3" />
+    <LinearLayout
+        android:id="@+id/security_question"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:textColor="#AAAAAA"
+            android:text="设置密保"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#E3E3E3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp">
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F0F8FF"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:text="退出登陆"/>
+    </RelativeLayout>
+
+</LinearLayout>
